@@ -80,6 +80,10 @@ body {
     font-size: 14px;
 }
 
+.nav-button {
+    display: none;
+}
+
 .nav-link {
     color: #000;
 }
@@ -201,8 +205,10 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 60px;
+    margin-bottom: 48px;
 }
 
 .contacts-footer {
     color: #828282;
+
 }
