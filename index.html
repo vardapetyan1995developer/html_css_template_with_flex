@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="lib/aos/css/aos.css" />
 </head>
 <body>
     <header class="header">
@@ -47,7 +48,7 @@
 
             <!--Header content-->
             <div class="header-row">
-                <div class="header-content">
+                <div class="header-content" data-aos="fade-up">
                     <h1 class="header-heading">Kelvin Kramer Designer <br> & Developer</h1>
 
                     <p>
@@ -55,7 +56,7 @@
                     </p>
                 </div>
 
-                <div class="header-img">
+                <div class="header-img" data-aos="fade-left">
                     <picture>
                         <source media="(max-width: 799px)" srcset="img/header/hero-mobile.png">
 
@@ -69,19 +70,19 @@
     <section class="services">
         <div class="container">
             <div class="services-row">
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" src="img/services/001.svg" alt="UI/UX Design">
                     <h3 class="service-card-title">UI/UX Design</h3>
                     <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" src="img/services/002.svg" alt="UI/UX Design">
                     <h3 class="service-card-title">Development</h3>
                     <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
                 </div>
 
-                <div class="service-card">
+                <div class="service-card" data-aos="fade-down">
                     <img class="service-card-img" src="img/services/003.svg" alt="UI/UX Design">
                     <h3 class="service-card-title">Software Testing</h3>
                     <p>Our design is translated into comprehensive digital environments built on latest development standards.</p>
@@ -163,6 +164,7 @@
         </div>
     </footer>
 
+    <script src="lib/aos/js/aos.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
